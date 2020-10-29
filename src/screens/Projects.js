@@ -66,12 +66,14 @@ export class Projects extends Component {
                      <img src={burgerDelight} alt="burgerDelight" className={classes.ProjectImage} />
                   </a>
                   <div className={classes.ProjectTitle}>
-                     <a href="https://react-my-burger-4b5dc.web.app" rel="noopener noreferrer" target="_blank"> Burger Delight</a>
+                     <a href="https://github.com/EMMANUEL-07/burger-delight" rel="noopener noreferrer" target="_blank"> Burger Delight</a>
                   </div>
                </div>
                <div className={classes.ProjectCard} > 
                   <img src={myPortfolio} alt="myPortfolio" className={classes.ProjectImage} />
-                  <div className={classes.ProjectTitle}>My Portfolio</div>
+                  <div className={classes.ProjectTitle}>
+                     <a href="https://github.com/EMMANUEL-07/myPortfolio" rel="noopener noreferrer" target="_blank"> My Portfolio</a>
+                  </div>
                </div>
             </div>
             <div className={classes.ProjectText}>
@@ -101,7 +103,7 @@ export class Projects extends Component {
                      <img src={homiesCart} alt="homiesCart" className={classes.ProjectImage} />
                   </a>
                   <div className={classes.ProjectTitle}>
-                     <a href="https://expo.io/@cherish12t/projects/homies-Cart" rel="noopener noreferrer" target="_blank"> Homie's Cart</a>
+                     <a href="https://github.com/EMMANUEL-07/homiesCart" rel="noopener noreferrer" target="_blank"> Homie's Cart</a>
                   </div>
                </div>
                <div className={classes.ProjectCard} >
@@ -109,7 +111,7 @@ export class Projects extends Component {
                      <img src={tummyExpress} alt="tummyExpress" className={classes.ProjectImage} />
                   </a>
                   <div className={classes.ProjectTitle}>
-                     <a href="https://expo.io/@cherish12t/projects/tummy-Express" rel="noopener noreferrer" target="_blank"> Tummy Express</a>
+                     <a href="https://github.com/EMMANUEL-07/tummyExpress" rel="noopener noreferrer" target="_blank"> Tummy Express</a>
                   </div>
                </div>
                <div className={classes.ProjectCard} >
@@ -130,7 +132,6 @@ export class Projects extends Component {
                   <li>React Navigation v4 & v5</li>
                </ul>   
             </div>
-            {/* <div className={classes.ProjectText}> Cross-Platform Mobile Applications show-casing my proficieny in , ,  usage(Location, Camera etc), , ,  and  to Stores amongst others.</div> */}
            
            
 
@@ -143,7 +144,7 @@ export class Projects extends Component {
                      <img src={makeHay} alt="makeHay" className={classes.ProjectImage} />
                   </a>
                   <div className={classes.ProjectTitle}>
-                     <a href="https://oyekan-weather-app.herokuapp.com" rel="noopener noreferrer" target="_blank"> Make Hay</a>
+                     <a href="https://github.com/EMMANUEL-07/node-173learn" rel="noopener noreferrer" target="_blank"> Make Hay</a>
                   </div>
                </div>
                <div className={classes.ProjectCard} >
@@ -151,7 +152,7 @@ export class Projects extends Component {
                      <img src={letsChat} alt="letsChat" className={classes.ProjectImage} />  
                   </a>
                   <div className={classes.ProjectTitle}>
-                     <a href="https://oyekan-chat-app.herokuapp.com" rel="noopener noreferrer" target="_blank"> Let's Chat</a>
+                     <a href="https://github.com/EMMANUEL-07/chat-app" rel="noopener noreferrer" target="_blank"> Let's Chat</a>
                   </div>
                </div>
                
@@ -172,7 +173,6 @@ export class Projects extends Component {
                   <li>Deployment</li>
                </ul>   
             </div>
-            {/* <div className={classes.ProjectText}> Basic Apps with the use of the Node JS platform to exhibit my prowess in setting up servers, , CRUD operations, Error Handling, Templating, File Uploads, Sending Mails, use of API, LiveChat Communiations systems, Working with Database systems, Authentication and Security, Running Tests, and Deploying apps amongst others.</div> */}
          </div>     
       );
    }
