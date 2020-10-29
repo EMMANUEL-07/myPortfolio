@@ -1,0 +1,70 @@
+.Contact{
+   /* flex: 4; */
+   height: 100vh;
+   background-color: white;
+   padding: 40px 40px 0px 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   
+}
+
+.Text{
+   flex: 1;
+   margin: 60 auto;
+   padding: 40 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between
+}
+
+.Touch{
+   color: Blue;
+   font-size: 2em;
+   font-style: italic;
+   margin: 20 auto;
+   
+}
+
+.Available{
+   color: Black;
+   font-size: 1.5em;
+   margin: 30 auto;
+   
+}
+
+.DetCard{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-Size: 1.5em;
+   flex: 4;
+}
+
+ .phone, .mail, .whatsapp{
+
+   width: 40vh
+} 
+
+.Iconsp {
+   font-size: 4em;
+   padding: 20 auto
+}
+
+.Iconsw {
+   font-size: 4em;
+   padding: 20 auto;
+   color: #25D366
+}
+
+.Iconsm {
+   font-size: 4em;
+   padding: 20 auto;
+   color: #D44638
+}
+
+.mails {
+   font-size: 20px
+}
+

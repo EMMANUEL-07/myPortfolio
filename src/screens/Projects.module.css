@@ -1,0 +1,87 @@
+.Projects{
+   overflow: scroll;
+   height: 100vh;
+   background-color: white;
+   padding: 40px 40px 0px 40px;
+   scrollbar-color: rgb(0, 174, 255) blue;
+}
+.Projects::-webkit-scrollbar {
+   width: 10px;
+}
+.Projects::-webkit-scrollbar-track {
+   /* background: #009acc; */
+   background: white
+}
+.Projects::-webkit-scrollbar-thumb {
+   background-color: rgb(0, 174, 255);
+   border-radius: 20px;
+   border: 3px solid blue
+}
+
+
+.Title{
+   color: blue;
+   font-size: 3em;
+}
+
+.TechTitle{
+   color: orange;
+   font-size: 2em;
+   margin: 40px 0px 10px 0px;
+   font-weight: bold;
+}
+
+.SubTitle{
+   color: rgb(0, 174, 255);
+   font-size: 2em;
+   font-style: italic
+}
+
+.ProjectLane{
+   display: flex;
+   justify-content: space-around;
+}
+
+.ProjectCard{
+   flex:1;
+   margin: 20;
+   padding: 20;
+   width: 80%;
+}
+
+.ProjectImage{
+   height: 250px;
+   width: 80%;
+}
+.ProjectText{
+   width: 100%;
+   text-align: left;
+   margin: auto;
+   font-size: 1.1em;
+   padding-bottom: 10px;
+}
+.ProjectTitle{
+   color: rgb(0, 174, 255);
+   font-size: 1.5em;
+   font-weight: bold;
+   padding-bottom: 12px;
+
+}
+a{
+   text-decoration: none;
+   color: rgb(0, 174, 255);
+}
+a:hover{
+   color: #37FF15;
+   
+}
+
+.GridCont{
+   display: grid;
+   grid-template-columns: 28% 20% 25% 27%;
+   list-style-type: disc ;
+   width: 90%;
+}
+.GridCont li{
+   padding-right: 12px;
+}

@@ -1,0 +1,200 @@
+.resume{
+   
+   height: 100vh;
+   padding-bottom: 40px;
+   overflow: auto;
+   margin: 0;
+   background-color: #d9f0f6;
+   scrollbar-color: rgb(0, 174, 255) blue;
+}
+.resume::-webkit-scrollbar {
+   width: 10px;
+}
+.resume::-webkit-scrollbar-track {
+   /* background: #009acc; */
+   background: white
+}
+.resume::-webkit-scrollbar-thumb {
+   background-color: rgb(0, 174, 255);
+   border-radius: 20px;
+   border: 3px solid blue
+}
+ 
+
+.header{
+   background-color: #009acc;
+   color: white;
+   padding-bottom: 10px;
+}
+.title{
+   padding: 50px;
+   text-align: center;
+   font-size: 3.5em;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+.lining{
+   background-color: white;
+   height: 8px;
+}
+.lining2{
+   background-color: #d9f0f6;
+   height: 40px;
+}
+.content{
+   display: flex;
+}
+.left{
+   flex: 2;
+   background-color: #d9f0f6;
+}
+.right{
+   flex: 3;
+   background-color: white;
+}
+.section{
+   font-size: 1.5em;
+   padding: 40px 40px 0px 40px;
+}
+.sectionTitle{
+   font-weight: bold;
+   font-size: 1.8em;
+}
+.sectionText{
+   padding: 20px;
+   line-height: 32px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subsection{
+   font-weight: bold;
+}
+.sectionSubTitle{
+   margin: 20px;
+   font-weight: bold;
+}
+ul{
+   margin: 0;
+}
+.first{
+   overflow-x: auto;
+}
+
+@media screen and (max-width:1202px) {
+   .title{
+      font-size: 3em;
+   }
+}
+
+@media screen and (max-width:1002px) {
+   .title{
+      font-size: 2.5em;
+   }
+   .left{
+      flex: 1;      
+   }
+   .right{
+      flex: 2;
+   }
+   .section{
+      font-size: 1.1em;
+   }
+   .sectionSubTitle{
+      margin: 20px 0px 20px 15px;
+      font-weight: bold;
+   }
+}
+@media screen and (max-width:822px) {
+   .title{
+      font-size: 2em;
+      padding: 35px;
+   }
+   .section{
+      font-size: 1em;
+      padding: 40px 15px 0px 15px;
+   }
+   .sectionTitle{
+      font-size: 1.3em;
+   }
+   .sectionText{
+      padding: 10px;
+
+   }
+}
+@media screen and (max-width:743px) {
+   .title{
+      font-size: 1.8em;
+      padding: 35px;
+   }
+   .sectionSubTitle{
+      margin: 20px 0px 20px 15px;
+      font-weight: bold;
+      text-align: justify;
+   }
+   .section{
+      font-size: 0.8em;
+   }
+   .sectionTitle{
+      font-size: 1.2em;
+   }
+   .sectionText{
+      padding: 10px;
+
+   }
+}
+@media screen and (max-width:672px) {
+   .title{
+      font-size: 1.6em;
+      padding: 35px;
+   }
+   .sectionSubTitle{
+      margin: 20px 0px 20px 15px;
+      font-weight: bold;
+      text-align: justify;
+   }
+   .section{
+      font-size: 0.8em;
+      padding: 30px 15px 0px 15px;
+   }
+   .sectionTitle{
+      font-size: 1.1em;
+   }
+   .sectionText{
+      padding: 6 0 0 6;
+      line-height: 24px;
+
+   }
+   ul{
+      line-height: 24px;
+   }
+   .lining2{
+      height: 20px;
+   }
+}
+@media screen and (max-width:422px) {
+   .title{
+      font-size: 1.0em;
+      padding: 24px;
+   }
+   .left{
+      max-width: 180px;
+   }
+   .section{
+      font-size: 0.4em;
+      padding: 30px 5px 0px 10px;
+   }
+   .sectionTitle{
+      font-size: 0.7em;
+   }
+   .sectionSubTitle{
+      margin: 20px 0px 20px 5px;
+      font-weight: bold;
+      text-align: justify;
+   }
+   .sectionText{
+      padding: 6 0 0 5;
+      line-height: 16px;
+   }
+   ul{
+      line-height: 16px;
+   }
+}

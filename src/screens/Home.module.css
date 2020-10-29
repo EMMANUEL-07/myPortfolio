@@ -1,0 +1,38 @@
+.Home{
+  /* flex: 4; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px
+}
+
+.Intro{
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  /* color: #09FFDC; */
+  color: #37FF15;
+  /* color: #F9FF20; */
+  padding: 30;
+  margin: 0 80px;
+
+}
+
+.Name{
+align-items: flex-start
+}
+ 
+
+.Details{
+  align-items: flex-start
+}
+
+.Glad{
+  color: yellow;
+  font-size: 3em;
+  padding: 20;
+  align-items: center;
+  font-style: italic;
+}

@@ -1,0 +1,17 @@
+.Menu{
+   margin: 30px auto;
+   display: flex;
+   /* flex-direction: column; */
+   align-items: center;
+   justify-content: center;
+}
+
+.List{
+   list-style: none;
+   line-height: 2.5em;
+   flex: 1;
+   font-size: 2em;
+   color: #37FF15;
+   font-weight: bold;
+   font-family: 'Courier New', Courier, monospace, Arial;
+}
