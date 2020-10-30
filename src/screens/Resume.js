@@ -28,6 +28,7 @@ export class Resume extends Component {
                            <div> <span className={classes.subsection}>Address: </span><br/> 17 Chief Yesufu Abiodun Oniru Road, Victoria Island, Lagos.</div>
                            <div> <span className={classes.subsection}>Phone:</span><br/> +234 909 333 1735</div>
                            <div> <span className={classes.subsection}>Email:</span><br/> <a href="mailto:emmanueloyekan33@gmail.com"> emmanueloyekan33@gmail.com</a> </div>
+                           <div> <span className={classes.subsection}>Portfolio:</span><br/> bit.ly/oyekanPortfolio</div>
                         </div>   
                      </div>
 
