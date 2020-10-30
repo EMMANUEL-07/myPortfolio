@@ -4,3 +4,20 @@
    height: 100vh;
    padding: 20px
 }
+
+.ham{
+   align-items: right;
+   border-width: 2px solid black;
+}
+
+@media screen and (max-width: 1200px) {
+   .Outline{
+      padding: 20px 20px 20px 20px
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .Outline{
+      display: none
+   }
+}

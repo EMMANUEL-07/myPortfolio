@@ -9,7 +9,6 @@
    width: 10px;
 }
 .Projects::-webkit-scrollbar-track {
-   /* background: #009acc; */
    background: white
 }
 .Projects::-webkit-scrollbar-thumb {
@@ -18,6 +17,9 @@
    border: 3px solid blue
 }
 
+.Header{
+   display: none; 
+}
 
 .Title{
    color: blue;
@@ -52,6 +54,7 @@
 .ProjectImage{
    height: 250px;
    width: 80%;
+   max-width: 400px;
 }
 .ProjectText{
    width: 100%;
@@ -65,7 +68,6 @@
    font-size: 1.5em;
    font-weight: bold;
    padding-bottom: 12px;
-
 }
 a{
    text-decoration: none;
@@ -82,6 +84,47 @@ a:hover{
    list-style-type: disc ;
    width: 90%;
 }
+
 .GridCont li{
    padding-right: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+   .Header{
+      display: contents;
+      background-color: blue;
+   }
+   .SubTitle{
+      font-size: 1.6em
+   }
+   .Projects{
+      height: max-content;
+   }
+}
+@media screen and (max-width: 650px) {
+   .ProjectText{
+      font-size: 0.9em;
+   }
+}
+@media screen and (max-width: 541px) {
+   .ProjectText{
+      font-size: 0.9em;
+   }
+   .GridCont{
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      list-style-type: disc ;
+      width: 90%;
+   }
+   .ProjectLane{
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+   }
+   .ProjectCard{
+      padding-bottom: 20px;
+   }
+   .Projects{
+      padding: 40px 25px 0px 25px;
+   }
 }

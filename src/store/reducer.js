@@ -3,7 +3,9 @@ const initialState = {
    home: true,
    projects: false,
    contact: false,
-   resume: false
+   resume: false,
+   menuTog: false,
+   menuHTog: false
 
 }
 
@@ -13,7 +15,9 @@ const reducer = (state = initialState, action) => {
          home: true,
          projects: false,
          contact: false,
-         resume: false
+         resume: false,
+         menuTog: false,
+         menuHTog: false
       }
    }
    if (action.type === 'PROJECTS') {
@@ -21,7 +25,9 @@ const reducer = (state = initialState, action) => {
          home: false,
          projects: true,
          contact: false,
-         resume: false
+         resume: false,
+         menuTog: false,
+         menuHTog: false
       }
    }
    if (action.type === 'CONTACT') {
@@ -29,7 +35,9 @@ const reducer = (state = initialState, action) => {
          home: false,
          projects: false,
          contact: true,
-         resume: false      
+         resume: false,
+         menuTog: false,
+         menuHTog: false      
       }
    }
    if (action.type === 'RESUME') {
@@ -37,7 +45,25 @@ const reducer = (state = initialState, action) => {
          home: false,
          projects: false,
          contact: false,
-         resume: true
+         resume: true,
+         menuTog: false,
+         menuHTog: false
+      }
+   }
+   if (action.type === 'MENUTOGGLE') {
+      return {
+         ...state,
+         menuTog: !state.menuTog,
+      }
+   }
+   if (action.type === 'MENUHTOGGLE') {
+      return {
+         home: false,
+         projects: false,
+         contact: false,
+         resume: false,
+         menuTog: false,
+         menuHTog: !state.menuHTog
       }
    }
    return state;

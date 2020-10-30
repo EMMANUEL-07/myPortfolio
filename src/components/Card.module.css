@@ -1,11 +1,21 @@
 .Card {
    display: flex;
    flex-direction: column;
-   align-items: center
+   align-items: center;
+   background-color: transparent; 
+   width: 100%
+}
+.ham{
+   text-align: right;
+   width: 99.3%;
+   max-width: 980px;
+   border-top:  2px solid white;
+   font-size: 2em;
+   color: white;
+   
 }
 
 .ImageCont{
-   
    background-image: url('../assets/myPic.jpg');
    background-size: cover;
    border-radius: 50%;
@@ -25,11 +35,21 @@
    font-size: 22px 
 }
 
-
 .Title{ 
    font-size: 20px;
    font-style: italic;
    font-weight: 600
 }
 
-
+@media screen and (max-width: 1000px) {
+   .Card {
+      background-color: rgb(0, 0, 255, 0.65);
+   }
+   
+}
+@media screen and (min-width: 1000px) {
+   .ham {
+      display: none;
+   }
+   
+}

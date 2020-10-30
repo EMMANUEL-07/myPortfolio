@@ -9,6 +9,11 @@
    
 }
 
+.Header{
+   display: none;
+   
+}
+
 .Text{
    flex: 1;
    margin: 60 auto;
@@ -42,7 +47,7 @@
    flex: 4;
 }
 
- .phone, .mail, .whatsapp{
+.phone, .mail, .whatsapp{
 
    width: 40vh
 } 
@@ -68,3 +73,47 @@
    font-size: 20px
 }
 
+@media screen and (max-width: 1200px) {
+   .DetCard{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-bottom: 40px;
+   }
+
+   .phone {
+      justify-self: center;
+      text-align: center;
+   }
+   .whatsapp {
+      justify-self: center;
+      text-align: center;
+   }
+   .mail {
+      grid-column: 1 / span 2;
+      justify-self: center;
+      text-align: center;
+   }
+
+}
+
+@media screen and (max-width: 1000px) {
+   .Header{
+      display: contents;
+   }
+}
+
+@media screen and (max-width: 685px) {
+   .DetCard{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 40px;
+   }
+   .Contact{
+      padding: 60px 30px 0px 30px;
+      
+      
+   }
+}

@@ -1,9 +1,10 @@
 .Content{
    flex: 3;
    height: 100vh;
-   /*background-color: white;
-   padding: 40px 40px 0px 40px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly; */
+}
+
+@media screen and (max-width: 1000px){
+   .Content{
+      max-width: 1000px
+   }
 }

@@ -13,12 +13,11 @@ class Content  extends Component  {
 
    render(){
       
-      let Displayed = <Projects />
-      /* let Displayed = <Home /> */
+      
+      let Displayed = <Home />
 
       if(this.props.projects){
-         Displayed = <Home />
-         /* Displayed = <Projects /> */
+         Displayed = <Projects />
       }
       if(this.props.contact){
          Displayed = <Contact />
