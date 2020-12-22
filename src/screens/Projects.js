@@ -10,6 +10,8 @@ import comingSoon from '../assets/comingSoon.jpg';
 import tummyExpress from '../assets/tummyExpress.png';
 import homiesCart from '../assets/homiesCart.png';
 import Card from '../components/Card'
+import travelMemory from '../assets/travelMemory.png';
+
 
 
 export class Projects extends Component {
@@ -29,7 +31,7 @@ export class Projects extends Component {
                </div>
 
                <div>
-                  <div className={classes.TechTitle}>BASIC TECHNLOGIES <br/> <small><small><i>(HTML, CSS and a little JavaScript)</i></small></small></div>
+                  <div className={classes.TechTitle}>BASIC TECHNLOGIES <br/> <small><small><i>(HTML, CSS and JavaScript)</i></small></small></div>
                   
                </div>
                <div className={classes.ProjectLane} >
@@ -120,8 +122,12 @@ export class Projects extends Component {
                      </div>
                   </div>
                   <div className={classes.ProjectCard} >
-                     <img src={comingSoon} alt="comingSoon" className={classes.ProjectImage} />
-                     <div className={classes.ProjectTitle}>Travel Memory</div>
+                     <a href="https://expo.io/@cherish12t/projects/travelMemory" rel="noopener noreferrer" target="_blank" > 
+                        <img src={travelMemory} alt="travelMemory" className={classes.ProjectImage} />
+                     </a>
+                     <div className={classes.ProjectTitle}>
+                        <a href="https://github.com/EMMANUEL-07/travelMemory" rel="noopener noreferrer" target="_blank"> Travel Memory</a>
+                     </div>
                   </div>
                </div>
                <div className={classes.ProjectText}>
