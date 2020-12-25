@@ -40,10 +40,12 @@ export class Resume extends Component {
                               <li>HTML</li>
                               <li>CSS</li>
                               <li>JAVASCRIPT</li>
+                              <li>JQUERY</li>
                               <li>REACT</li>
                               <li>REACT NATIVE</li>
                               <li>ANGULAR</li>
-                              <li>NODE JS</li>
+                              <li>NODE</li>
+                              <li>PHP</li>
                               <li>MICROSOFT POWER BI</li>
                            </ul>
                         </span>
@@ -96,16 +98,26 @@ export class Resume extends Component {
                      
                      <div className={classes.section}>
                         <div className={classes.sectionTitle}>WORK HISTORY</div>
-                        <span className={classes.sectionSubTitle}>NNPC/DPR RELATIONS INTERN, <span className="indright">10/2018 to 04/2019</span></span><br/>
-                        <span className={classes.sectionSubTitle}>CHEVRON NIGERIA LIMITED <span className="indright">- Lekki, LAGOS</span></span>
+                        <span className={classes.sectionSubTitle}>SOFTWARE DEVELOPER, <span className={classes.indright}> 2020 - present </span></span><br/>
+                        <span className={classes.sectionSubTitle}>IVYARC <span className={classes.indright}>- LAGOS(Remote)</span></span>
+                        <span className={classes.sectionText}>
+                           <ul>
+                              <li>Worked on an E-Commerce and Data Visualisation Projects</li> 
+                              <li>Lead a team of Front-End Developers</li> 
+                              <li>Adopted Agile Methodologies as Modus Operandi</li> 
+                              <li>Execution of CI/CD for process automation</li> 
+                           </ul>
+                        </span><br/>
+                        <span className={classes.sectionSubTitle}>NNPC/DPR RELATIONS INTERN, <span className={classes.indright}>10/2018 to 04/2019</span></span><br/>
+                        <span className={classes.sectionSubTitle}>CHEVRON NIGERIA LIMITED <span className={classes.indright}>- Lekki, LAGOS</span></span>
                         <span className={classes.sectionText}>
                            <ul>
                               <li>Facilitated Productive and Sustainable relationship between company and Government Bodies and other JV partners.</li> 
                               <li> Obtained Approvals, Licences and Permits from State and Federal agencies required for the progress and execution of Projects ranging up to millions of dollars.</li> 
                            </ul>
                         </span><br/>
-                        <span className={classes.sectionSubTitle}>ASSET ENGINEERING INTERN, <span className="indright">02/2018 to 04/2018</span></span><br/>
-                        <span className={classes.sectionSubTitle}>SEPLAT PETROLEUM DEVELOPMENT COMPANY <span className="indright">- Ikoyi, LAGOS</span></span>
+                        <span className={classes.sectionSubTitle}>ASSET ENGINEERING INTERN, <span className={classes.indright}>02/2018 to 04/2018</span></span><br/>
+                        <span className={classes.sectionSubTitle}>SEPLAT PETROLEUM DEVELOPMENT COMPANY <span className={classes.indright}>- Ikoyi, LAGOS</span></span>
                         <span className={classes.sectionText}>
                            <ul>
                               <li>Participated in daily activities to ensure Asset Integrity.</li> 
@@ -117,8 +129,8 @@ export class Resume extends Component {
                      
                      <div className={classes.section}>
                         <div className={classes.sectionTitle}>EDUCATION</div>
-                        <span className={classes.sectionSubTitle}>Bachelor of Science: <span className="indright">PETROLEUM ENINEERING, 2020</span></span><br/>
-                        <span className={classes.sectionSubTitle}>UNIVERSITY OF IBADAN <span className="indright">- Ibadan, OYO</span></span>
+                        <span className={classes.sectionSubTitle}>Bachelor of Science: <span className={classes.indright}>PETROLEUM ENINEERING, 2020</span></span><br/>
+                        <span className={classes.sectionSubTitle}>UNIVERSITY OF IBADAN <span className={classes.indright}>- Ibadan, OYO</span></span>
                         <span className={classes.sectionText}>
                            <ul>
                               <li> Second class Honours (Upper Division)</li>

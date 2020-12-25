@@ -1,6 +1,21 @@
 .App {
   display:flex;
   flex-direction: row;
-  background: url('./assets/devbg1.jpg');
+  background-origin: padding-box;
+  background-image: url('./assets/devbg1.png');
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1025px){
+  .App {
+    background-image: url('./assets/devbg2.png');
+   
+  }
+}
+@media screen and (max-width: 769px){
+  .App {
+    background-image: url('./assets/devbg3.png');
+   
+  }
 }

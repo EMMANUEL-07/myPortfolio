@@ -30,11 +30,11 @@
    padding-bottom: 10px;
 }
 .title{
-   padding: 50px;
+   padding: 30px 50px;
    text-align: center;
-   font-size: 3.5em;
-   font-weight: bold;
-   font-family: 'Times New Roman', Times, serif;
+   font-size: 5em;
+   font-weight: 400;
+   font-family: 'Oswald','Times New Roman', Times, serif;
 }
 .lining{
    background-color: white;
@@ -57,7 +57,7 @@
 }
 .section{
    font-size: 1.5em;
-   padding: 40px 40px 0px 40px;
+   padding: 40px 20px 0px 40px;
 }
 .sectionTitle{
    font-weight: bold;
@@ -80,6 +80,15 @@ ul{
 }
 .first{
    overflow-x: auto;
+}
+.indright{
+   font-size: 0.75em;
+}
+
+@media screen and (min-width: 1000px ) and (max-width:1280px) {
+   .title{
+      font-size: 4em;
+   }
 }
 
 @media screen and (min-width: 1000px ) and (max-width:1202px) {
@@ -124,7 +133,7 @@ ul{
       display: contents;
    }
    .title{
-      font-size: 2.5em;
+      font-size: 3.5em;
    }
    .left{
       flex: 1;      
@@ -142,8 +151,8 @@ ul{
 }
 @media screen and (max-width:822px) {
    .title{
-      font-size: 2em;
-      padding: 35px;
+      font-size: 3.2em;
+      padding: 20px 35px;
    }
    .section{
       font-size: 1em;
@@ -159,8 +168,8 @@ ul{
 }
 @media screen and (max-width:743px) {
    .title{
-      font-size: 1.8em;
-      padding: 35px;
+      font-size: 3em;
+      padding: 20px 35px;
    }
    .sectionSubTitle{
       margin: 20px 0px 20px 15px;
@@ -179,10 +188,7 @@ ul{
    }
 }
 @media screen and (max-width:672px) {
-   .title{
-      font-size: 1.6em;
-      padding: 35px;
-   }
+   
    .sectionSubTitle{
       margin: 20px 0px 20px 15px;
       font-weight: bold;
@@ -207,10 +213,23 @@ ul{
       height: 20px;
    }
 }
+
+@media screen and (max-width:592px) {
+   .title{
+      font-size: 2.5em;
+      
+   }
+}
+@media screen and (max-width:480px) {
+   .title{
+      font-size: 2em;
+      
+   }
+}
 @media screen and (max-width:422px) {
    .title{
-      font-size: 1.0em;
-      padding: 24px;
+      font-size: 1.8em;
+      padding: 16px 24px;
    }
    .left{
       max-width: 180px;

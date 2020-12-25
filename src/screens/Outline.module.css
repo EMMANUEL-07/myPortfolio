@@ -2,7 +2,22 @@
    flex: 1;
    background-color: rgb(0, 0, 255, 0.65);
    height: 100vh;
-   padding: 20px
+   padding: 20px;
+   overflow: auto;
+   scrollbar-width: thin;
+   scrollbar-color: blue  #d9f0f6;
+}
+.Outline::-webkit-scrollbar {
+   width: 10px;
+}
+.Outline::-webkit-scrollbar-track {
+   /* background: #009acc; */
+   background:  rgb(0, 0, 255, 0.65);
+}
+.Outline::-webkit-scrollbar-thumb {
+   background-color: rgb(0, 0, 255, 0.65);
+   border-radius: 20px;
+   border: 2px solid white;
 }
 
 .ham{

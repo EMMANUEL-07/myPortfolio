@@ -107,7 +107,7 @@ export class Projects extends Component {
                <div className={classes.ProjectLane} >
                   <div className={classes.ProjectCard} >
                      <a href="https://expo.io/@cherish12t/projects/homies-Cart" rel="noopener noreferrer" target="_blank" > 
-                        <img src={homiesCart} alt="homiesCart" className={classes.ProjectImage} />
+                        <img src={homiesCart} alt="homiesCart" className={classes.ProjectImageNat} />
                      </a>
                      <div className={classes.ProjectTitle}>
                         <a href="https://github.com/EMMANUEL-07/homiesCart" rel="noopener noreferrer" target="_blank"> Homie's Cart</a>
@@ -115,7 +115,7 @@ export class Projects extends Component {
                   </div>
                   <div className={classes.ProjectCard} >
                      <a href="https://expo.io/@cherish12t/projects/tummy-Express" rel="noopener noreferrer" target="_blank" > 
-                        <img src={tummyExpress} alt="tummyExpress" className={classes.ProjectImage} />
+                        <img src={tummyExpress} alt="tummyExpress" className={classes.ProjectImageNat} />
                      </a>
                      <div className={classes.ProjectTitle}>
                         <a href="https://github.com/EMMANUEL-07/tummyExpress" rel="noopener noreferrer" target="_blank"> Tummy Express</a>
@@ -123,7 +123,7 @@ export class Projects extends Component {
                   </div>
                   <div className={classes.ProjectCard} >
                      <a href="https://expo.io/@cherish12t/projects/travelMemory" rel="noopener noreferrer" target="_blank" > 
-                        <img src={travelMemory} alt="travelMemory" className={classes.ProjectImage} />
+                        <img src={travelMemory} alt="travelMemory" className={classes.ProjectImageNat} />
                      </a>
                      <div className={classes.ProjectTitle}>
                         <a href="https://github.com/EMMANUEL-07/travelMemory" rel="noopener noreferrer" target="_blank"> Travel Memory</a>
@@ -184,6 +184,22 @@ export class Projects extends Component {
                      <li>Deployment</li>
                   </ul>   
                </div>
+
+               <div>
+                  <div className={classes.TechTitle}>PHP</div>
+               </div>
+               <div className={classes.ProjectLane} >
+                  <div className={classes.ProjectCard} >
+                     <img src={comingSoon} alt="comingSoon" className={classes.ProjectImage} />
+                     <div className={classes.ProjectTitle}>Data Visualizer</div>
+                  </div>
+                  {/* <div className={{ ...classes.PHPsec, ...classes.ProjectCard} } >
+                     <div className={classes.ProjectImage}></div>
+                  </div> */}
+               </div>
+               <div className={classes.ProjectText}>{/* A  single page fully responsive site accomodating different device screens with the use of media queries, flexbox without employing the use of frameworks. */}</div>
+
+
             </div>     
          </div>
       );
